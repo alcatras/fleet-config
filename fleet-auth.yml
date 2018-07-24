@@ -1,8 +1,5 @@
-message: 'This is overriden message'
-
 app:
   auth:
     token:
       expiration: 86400000
-      prefix: 'Bearer'
-      secret: MdW2poFMAmTuB57ixwPhodjlp8lkSAk8Y4hHfOyLvYYGKY9/ixmD385BQaKskSza9zIVNszcqXc6ey3dzwJbCdEo+sGWl3D96Sg=
+      prefix: Bearer

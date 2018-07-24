@@ -1,1 +1,7 @@
 message: 'This is overriden message'
+
+app:
+  auth:
+    token:
+      expiration: 86400000
+      prefix: 'Bearer'

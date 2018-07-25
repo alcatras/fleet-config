@@ -3,3 +3,4 @@ app:
     token:
       expiration: 86400000
       prefix: Bearer
+      secret: ${random.value}

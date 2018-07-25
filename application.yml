@@ -1,4 +1,0 @@
-app:
-  auth:
-    token:
-      secret: ${random.value}

@@ -4,5 +4,6 @@ app:
       expiration: 86400000
       prefix: Bearer
       secret: ${random.value}
-      prefix:
-        group: Group
+      claims:
+        prefixes:
+          group: Group

@@ -5,4 +5,4 @@ app:
       prefix: Bearer
       secret: ${random.value}
       claims:
-        group: Group
+        groupPrefix: Group

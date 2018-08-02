@@ -3,7 +3,7 @@ app:
     token:
       expiration: 86400000
       prefix: Bearer
-      secret: ${random.value}
+      secret: asdSD434jri33klj4KLJH2dfj4h3JH
       claims:
         group:
           name: Group

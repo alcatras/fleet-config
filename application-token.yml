@@ -1,0 +1,8 @@
+app:
+  auth:
+    token:
+      expiration: 86400000
+      prefix: Bearer
+      secret: ${random.value}
+      claims:
+        group: Group

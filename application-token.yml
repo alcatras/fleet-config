@@ -5,5 +5,7 @@ app:
       prefix: Bearer
       secret: asdSD434jri33klj4KLJH2dfj4h3JH
       claims:
-        group:
-          name: Group
+        permissions:
+          name: Permissions
+    permissions:
+      default: ''

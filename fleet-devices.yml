@@ -1,0 +1,4 @@
+app:
+  devices:
+    permissions:
+      default: 'iot.fleet.permission.gateway.attach'

@@ -9,3 +9,5 @@ app:
           name: Permissions
     permissions:
       default: ''
+    apikey:
+      prefix: ApiKey

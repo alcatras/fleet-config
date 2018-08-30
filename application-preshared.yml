@@ -1,6 +1,0 @@
-app:
-  auth:
-    shared:
-      prefix: Shared
-      value: 234s8d9fs2hl3hsdf8
-      group: app

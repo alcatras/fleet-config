@@ -1,7 +1,0 @@
-app:
-  auth:
-    permissions:
-      defaults:
-        user: 'iot.fleet.permission.devices.create,iot.fleet.permission.devices.list,iot.fleet.permission.tokens.create,iot.fleet.permission.tokens.list'
-        operator: 'iot.fleet.permission.devices.manage'
-        device: 'iot.fleet.permission.devices.attach'

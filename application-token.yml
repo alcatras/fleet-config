@@ -18,3 +18,10 @@ app:
       prefix: Shared
       value: 234s8d9fs2hl3hsdf8
       group: app
+
+    permissions:
+      defaults:
+        app: 'iot.fleet.permission.account.create,iot.fleet.permission.jwt.create'
+        user: 'iot.fleet.permission.devices.create,iot.fleet.permission.devices.list,iot.fleet.permission.tokens.create,iot.fleet.permission.tokens.list'
+        operator: 'iot.fleet.permission.devices.manage'
+        device: 'iot.fleet.permission.devices.attach'

@@ -7,5 +7,7 @@ app:
       claims:
         permissions:
           name: Permissions
+        group:
+          name: Group
     apikey:
       prefix: ApiKey

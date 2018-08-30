@@ -1,5 +1,6 @@
 app:
   auth:
+  
     token:
       expiration: 86400000
       prefix: Bearer
@@ -9,5 +10,11 @@ app:
           name: Permissions
         group:
           name: Group
+          
     apikey:
       prefix: ApiKey
+      
+    shared:
+      prefix: Shared
+      value: 234s8d9fs2hl3hsdf8
+      group: app

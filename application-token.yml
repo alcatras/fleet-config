@@ -22,6 +22,6 @@ app:
     permissions:
       defaults:
         preshared: 'iot.fleet.permission.account.create,iot.fleet.permission.jwt.create'
-        user: 'iot.fleet.permission.devices.create,iot.fleet.permission.devices.list,iot.fleet.permission.tokens.create,iot.fleet.permission.tokens.list'
+        user: 'iot.fleet.permission.devices.create,iot.fleet.permission.devices.list,iot.fleet.permission.tokens.create,iot.fleet.permission.tokens.list,iot.fleet.permission.pilots.create,iot.fleet.permission.pilots.list'
         operator: 'iot.fleet.permission.devices.manage'
         device: 'iot.fleet.permission.devices.attach'

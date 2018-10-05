@@ -8,20 +8,36 @@ app:
       claims:
         permissions:
           name: Permissions
-        group:
-          name: Group
           
     apikey:
       prefix: ApiKey
       
-    preshared:
+    shared:
       prefix: Shared
       value: 234s8d9fs2hl3hsdf8
       group: app
 
     permissions:
-      defaults:
-        preshared: 'iot.fleet.permission.account.create,iot.fleet.permission.jwt.create'
-        user: 'iot.fleet.permission.devices.create,iot.fleet.permission.devices.list,iot.fleet.permission.tokens.create,iot.fleet.permission.tokens.list,iot.fleet.permission.pilots.create,iot.fleet.permission.pilots.list'
-        operator: 'iot.fleet.permission.devices.manage'
-        device: 'iot.fleet.permission.devices.attach'
+      groups:
+      - app:
+        - 'iot.fleet.permission.account.create'
+        - 'iot.fleet.permission.jwt.create'
+        
+      - user:
+        - 'iot.fleet.permission.account.update'
+        - 'iot.fleet.permission.account.delete'
+        - 'iot.fleet.permission.jwt.delete'
+        
+        - 'iot.fleet.permission.device.*'
+        - 'iot.fleet.permission.pilot.*'
+        
+      - device:
+        - 'iot.fleet.permission.device.attach'
+      
+      - pilot:
+        - 'iot.fleet.permission.pilot.attach'
+        - 'iot.fleet.permission.device.update'
+      
+      - edge:
+        - 'iot.fleet.permission.device.update'
+        - 'iot.fleet.permission.pilot.update'

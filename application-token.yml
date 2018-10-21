@@ -9,7 +9,7 @@ app:
         permissions:
           name: Permissions
           
-    apikey:
+    apiKey:
       prefix: ApiKey
       secret: skeh3uahen14U4R3
       

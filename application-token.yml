@@ -23,9 +23,9 @@ app:
       - app:
         - 'iot.fleet.permission.account.create'
         - 'iot.fleet.permission.jwt.create'
-        - 'iot.fleet.permission.device.attach'
+        - 'iot.fleet.permission.device.update'
         - 'iot.fleet.permission.device.show'
-        - 'iot.fleet.permission.pilot.attach'
+        - 'iot.fleet.permission.pilot.update'
         - 'iot.fleet.permission.pilot.show'
         
       - user:

@@ -27,6 +27,7 @@ app:
         - 'iot.fleet.permission.device.show'
         - 'iot.fleet.permission.pilot.update'
         - 'iot.fleet.permission.pilot.show'
+        - 'iot.fleet.permission.operation.*'
         
       - user:
         - 'iot.fleet.permission.account.update'
@@ -35,14 +36,15 @@ app:
         
         - 'iot.fleet.permission.device.*'
         - 'iot.fleet.permission.pilot.*'
+        - 'iot.fleet.permission.operation.*'
         
       - device:
-        - 'iot.fleet.permission.device.attach'
+        - 'iot.fleet.permission.device.update'
       
       - pilot:
-        - 'iot.fleet.permission.pilot.attach'
+        - 'iot.fleet.permission.pilot.update'
         - 'iot.fleet.permission.device.update'
       
       - edge:
-        - 'iot.fleet.permission.device.update'
-        - 'iot.fleet.permission.pilot.update'
+        - 'iot.fleet.permission.operation.create'
+        - 'iot.fleet.permission.operation.update'

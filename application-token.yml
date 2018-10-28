@@ -19,20 +19,15 @@ app:
       group: app
 
     permissions:
-      groups:
-      - app:
-        - 'iot.fleet.permission.account.create'
-        - 'iot.fleet.permission.jwt.create'
-        - 'iot.fleet.permission.device.update'
-        - 'iot.fleet.permission.device.show'
-        - 'iot.fleet.permission.pilot.update'
-        - 'iot.fleet.permission.pilot.show'
-        - 'iot.fleet.permission.operation.*'
-        
+      groups:        
       - user:
         - 'iot.fleet.permission.account.update'
         - 'iot.fleet.permission.account.delete'
+        - 'iot.fleet.permission.jwt.create'
         - 'iot.fleet.permission.jwt.delete'
+        
+        - 'iot.fleet.permission.apikey.create'
+        - 'iot.fleet.permission.apikey.show'
         
         - 'iot.fleet.permission.device.*'
         - 'iot.fleet.permission.pilot.*'
@@ -43,7 +38,7 @@ app:
       
       - pilot:
         - 'iot.fleet.permission.pilot.update'
-        - 'iot.fleet.permission.device.update'
+        - 'iot.fleet.permission.device.list'
       
       - edge:
         - 'iot.fleet.permission.operation.create'

@@ -31,7 +31,8 @@ app:
         
         - 'iot.fleet.permission.device.*'
         - 'iot.fleet.permission.pilot.*'
-        - 'iot.fleet.permission.operation.*'
+        - 'iot.fleet.permission.operation.show'
+        - 'iot.fleet.permission.operation.list'
         
       - device:
         - 'iot.fleet.permission.device.update'

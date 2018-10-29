@@ -44,3 +44,4 @@ app:
       - edge:
         - 'iot.fleet.permission.operation.create'
         - 'iot.fleet.permission.operation.update'
+        - 'iot.fleet.permission.edge.create'

@@ -38,7 +38,9 @@ app:
         - 'iot.fleet.permission.device.update'
       
       - pilot:
+        - 'iot.fleet.permission.pilot.show'
         - 'iot.fleet.permission.pilot.update'
+        - 'iot.fleet.permission.device.show'
         - 'iot.fleet.permission.device.list'
       
       - edge:

@@ -38,12 +38,21 @@ app:
         - 'iot.fleet.permission.device.update'
       
       - pilot:
-        - 'iot.fleet.permission.pilot.show'
+        - 'iot.fleet.permission.device.update'
         - 'iot.fleet.permission.pilot.update'
-        - 'iot.fleet.permission.device.show'
-        - 'iot.fleet.permission.device.list'
       
       - edge:
         - 'iot.fleet.permission.operation.create'
         - 'iot.fleet.permission.operation.update'
+        - 'iot.fleet.permission.operation.delete'
+        
+        - 'iot.fleet.permission.pilot.owner'
+        - 'iot.fleet.permission.device.owner'
+        
         - 'iot.fleet.permission.edge.create'
+        
+      - app:
+        - 'iot.fleet.permission.admin.actuator'
+      
+      - admin:
+        - 'iot.fleet.permission.admin.*'

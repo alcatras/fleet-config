@@ -56,3 +56,4 @@ app:
       
       - admin:
         - 'iot.fleet.permission.admin.*'
+        - 'iot.fleet.permission.apikey.*'

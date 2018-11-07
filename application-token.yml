@@ -23,6 +23,7 @@ app:
       - user:
         - 'iot.fleet.permission.account.update'
         - 'iot.fleet.permission.account.delete'
+        - 'iot.fleet.permission.account.exists'
         - 'iot.fleet.permission.jwt.create'
         - 'iot.fleet.permission.jwt.delete'
         

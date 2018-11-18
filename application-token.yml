@@ -35,6 +35,8 @@ app:
         - 'iot.fleet.permission.operation.show'
         - 'iot.fleet.permission.operation.list'
         
+        - 'iot.fleet.permission.store.show'
+        
       - device:
         - 'iot.fleet.permission.device.update'
       
@@ -56,6 +58,8 @@ app:
         - 'iot.fleet.permission.device.owner'
         
         - 'iot.fleet.permission.edge.create'
+        
+        - 'iot.fleet.permission.store.create'
         
       - app:
         - 'iot.fleet.permission.admin.actuator'

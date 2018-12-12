@@ -60,10 +60,7 @@ app:
         - 'iot.fleet.permission.edge.create'
         
         - 'iot.fleet.permission.store.create'
-        
-      - app:
-        - 'iot.fleet.permission.admin.actuator'
       
       - admin:
-        - 'iot.fleet.permission.admin.*'
+        - 'iot.fleet.permission.admin.actuator'
         - 'iot.fleet.permission.apikey.*'

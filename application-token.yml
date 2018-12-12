@@ -64,3 +64,5 @@ app:
       - admin:
         - 'iot.fleet.permission.admin.actuator'
         - 'iot.fleet.permission.apikey.*'
+        
+        - 'iot.fleet.permission.edge.list'

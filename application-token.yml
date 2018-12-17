@@ -24,6 +24,7 @@ app:
         - 'iot.fleet.permission.account.update'
         - 'iot.fleet.permission.account.delete'
         - 'iot.fleet.permission.account.exists'
+        - 'iot.fleet.permission.account.show'
         - 'iot.fleet.permission.jwt.create'
         - 'iot.fleet.permission.jwt.delete'
         
@@ -47,6 +48,8 @@ app:
         - 'iot.fleet.permission.pilot.update'
       
       - edge:
+        - 'iot.fleet.permission.account.show'
+        
         - 'iot.fleet.permission.operation.create'
         - 'iot.fleet.permission.operation.update'
         - 'iot.fleet.permission.operation.delete'

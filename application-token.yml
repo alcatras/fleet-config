@@ -33,39 +33,33 @@ app:
         
         - 'iot.fleet.permission.device.*'
         - 'iot.fleet.permission.pilot.*'
-        - 'iot.fleet.permission.operation.show'
-        - 'iot.fleet.permission.operation.list'
         
         - 'iot.fleet.permission.store.show'
         
       - device:
+        - 'iot.fleet.permission.device.show'
         - 'iot.fleet.permission.device.update'
+        - 'iot.fleet.permission.device.connect'
       
       - pilot:
-        - 'iot.fleet.permission.device.list'
+        - 'iot.fleet.permission.device.show'
         - 'iot.fleet.permission.device.update'
 
+        - 'iot.fleet.permission.pilot.show'
         - 'iot.fleet.permission.pilot.update'
+        - 'iot.fleet.permission.pilot.connect'
       
       - edge:
         - 'iot.fleet.permission.account.show'
         
-        - 'iot.fleet.permission.operation.create'
-        - 'iot.fleet.permission.operation.update'
-        - 'iot.fleet.permission.operation.delete'
-        
         - 'iot.fleet.permission.pilot.update'
-        - 'iot.fleet.permission.pilot.owner'
         
         - 'iot.fleet.permission.device.update'
-        - 'iot.fleet.permission.device.owner'
         
-        - 'iot.fleet.permission.edge.create'
-        
-        - 'iot.fleet.permission.store.create'
+        - 'iot.fleet.permission.server.update'
       
       - admin:
         - 'iot.fleet.permission.admin.actuator'
         - 'iot.fleet.permission.apikey.*'
         
-        - 'iot.fleet.permission.edge.list'
+        - 'iot.fleet.permission.server.show'

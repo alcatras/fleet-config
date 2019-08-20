@@ -33,8 +33,8 @@ app:
         
         - 'iot.fleet.permission.device.*'
         - 'iot.fleet.permission.pilot.*'
-        
-        - 'iot.fleet.permission.store.show'
+        - 'iot.fleet.permission.missionPrototype.*'
+        - 'iot.fleet.permission.mission.create'
         
       - device:
         - 'iot.fleet.permission.device.show'
@@ -51,12 +51,14 @@ app:
       
       - edge:
         - 'iot.fleet.permission.account.show'
-        
         - 'iot.fleet.permission.pilot.update'
-        
         - 'iot.fleet.permission.device.update'
-        
         - 'iot.fleet.permission.server.update'
+        
+      - worker:
+        - 'iot.fleet.permission.server.update'
+        - 'iot.fleet.permission.pilot.update'
+        - 'iot.fleet.permission.mission.update'
       
       - admin:
         - 'iot.fleet.permission.admin.actuator'

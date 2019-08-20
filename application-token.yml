@@ -64,4 +64,5 @@ app:
         - 'iot.fleet.permission.admin.actuator'
         - 'iot.fleet.permission.apikey.*'
         
+        - 'iot.fleet.permission.server.create'
         - 'iot.fleet.permission.server.show'

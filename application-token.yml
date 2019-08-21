@@ -35,6 +35,7 @@ app:
         - 'iot.fleet.permission.pilot.*'
         - 'iot.fleet.permission.missionPrototype.*'
         - 'iot.fleet.permission.mission.create'
+        - 'iot.fleet.permission.mission.show'
         
       - device:
         - 'iot.fleet.permission.device.show'

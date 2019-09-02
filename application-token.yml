@@ -49,6 +49,8 @@ app:
         - 'iot.fleet.permission.pilot.show'
         - 'iot.fleet.permission.pilot.update'
         - 'iot.fleet.permission.pilot.connect'
+        
+        - 'iot.fleet.permission.mission.update'
       
       - edge:
         - 'iot.fleet.permission.account.show'
